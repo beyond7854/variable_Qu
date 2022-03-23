@@ -1,0 +1,28 @@
+package ex02variable;
+
+public class Qu03CircleArea
+{
+
+	public static void main(String[] args)
+	{
+		/*
+		문제3] 파일명 : Qu03CircleArea.java
+		반지름이 10인 원의 넓이를 구해 출력하시오.
+		단, 넓이의 타입을 int, double형 두가지로 선언하여 각각 출력해야한다.
+		변수명] 
+		int형 : area_int
+		double형 : area_double
+		공식]
+		원의넓이 = 반지름 * 반지름 * 3.14
+		 */
+		
+		int area_int = 10; 
+		double pi = 3.14;
+		
+		double circle_area = (area_int * area_int * pi);
+		
+		System.out.println(circle_area);
+		
+	}
+
+}
